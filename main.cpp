@@ -53,7 +53,7 @@ DWORD pID;
 void Inject()
 {
 	LPVOID RemoteString, LoadLibAdd;
-	char PathToGame[MAX_PATH] = { 0 }, PathToTemp[MAX_PATH] = { 0 }, buf[MAX_PATH] = { 0 };
+	char PathToTemp[MAX_PATH] = { 0 }, buf[MAX_PATH] = { 0 };
 	char randName[8];
 
 	winapi.hGetTempPathA(MAX_PATH, PathToTemp);
